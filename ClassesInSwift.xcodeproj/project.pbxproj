@@ -16,6 +16,7 @@
 		B30114601CF8929600233B01 /* Overview.swift in Sources */ = {isa = PBXBuildFile; fileRef = B301145D1CF8929600233B01 /* Overview.swift */; };
 		B30114611CF8929600233B01 /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B301145E1CF8929600233B01 /* Vehicle.swift */; };
 		B30114621CF8929600233B01 /* VehicleInfoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B301145F1CF8929600233B01 /* VehicleInfoManager.swift */; };
+		B30114641CF893CC00233B01 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30114631CF893CC00233B01 /* Car.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,7 @@
 		B301145D1CF8929600233B01 /* Overview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Overview.swift; sourceTree = "<group>"; };
 		B301145E1CF8929600233B01 /* Vehicle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vehicle.swift; sourceTree = "<group>"; };
 		B301145F1CF8929600233B01 /* VehicleInfoManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VehicleInfoManager.swift; sourceTree = "<group>"; };
+		B30114631CF893CC00233B01 /* Car.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				B301145D1CF8929600233B01 /* Overview.swift */,
 				B301145E1CF8929600233B01 /* Vehicle.swift */,
 				B301145F1CF8929600233B01 /* VehicleInfoManager.swift */,
+				B30114631CF893CC00233B01 /* Car.swift */,
 				B301143D1CF8927600233B01 /* AppDelegate.swift */,
 				B301143F1CF8927600233B01 /* ViewController.swift */,
 				B30114411CF8927600233B01 /* Main.storyboard */,
@@ -208,6 +211,7 @@
 			files = (
 				B30114611CF8929600233B01 /* Vehicle.swift in Sources */,
 				B30114601CF8929600233B01 /* Overview.swift in Sources */,
+				B30114641CF893CC00233B01 /* Car.swift in Sources */,
 				B30114401CF8927600233B01 /* ViewController.swift in Sources */,
 				B30114621CF8929600233B01 /* VehicleInfoManager.swift in Sources */,
 				B301143E1CF8927600233B01 /* AppDelegate.swift in Sources */,

@@ -65,4 +65,33 @@ class _1_Classes_In_SwiftTests: XCTestCase {
         XCTAssert(vehiclesTiedForMostWheels.count == 2)
         XCTAssert(vehiclesTiedForMostWheels[0].numberOfWheels == 4)
     }
+    
+    func testMakingCarsUsingAClass() {
+        // I instantiate several vehicles, all of them cars
+        let myChevy = Vehicle(wheels: 4)
+        let myFriendsVolvo = Vehicle(wheels: 4)
+        let myMomsSubaru = Vehicle(wheels: 4)
+        let myBrothersMazda = Vehicle(wheels: 4)
+        
+        // I try to compare the cars, disappointed by how they all seem the same
+        XCTAssert(myChevy.numberOfWheels == myFriendsVolvo.numberOfWheels)
+        XCTAssert(myMomsSubaru.hasASoul == myBrothersMazda.hasASoul)
+    }
+    
+    func testMakingCarsUsingASubclass() {
+        // I instantiate several cars
+        let myChevy = Car(make: "Chevrolet", model: "2016 Volt")
+        let myFriendsVolvo = Car(make: "Volvo", model: "2010 S60")
+        let myMomsSubaru = Car(make: "Subaru", model: "2013 Outback")
+        let myBrothersMazda = Car(make: "Mazda", model: "2011 Mazda3")
+        
+        // I compare the cars, making sure that their makes and models truly differ
+        XCTAssert(myChevy.make != myFriendsVolvo.make)
+        XCTAssert(myMomsSubaru.model != myBrothersMazda.model)
+        
+        // I check for the functionality of the vehicle class, reassured that I haven't lost it
+        XCTAssert(myChevy.numberOfWheels == 4)
+        XCTAssert(myChevy.hasASoul == false)
+        XCTAssert(myChevy.statusReport() == "This vehicle has 4 wheels and 0 passengers.")
+    }
 }
