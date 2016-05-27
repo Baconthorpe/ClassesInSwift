@@ -14,7 +14,7 @@ import Foundation
 /*
  
  This lesson will introduce the concept of classes as they exist in Swift.
- We will concepts that answer the following questions:
+ We will coverh concepts that answer the following questions:
  
  * What is a class?
  * What makes classes useful?
@@ -25,7 +25,8 @@ import Foundation
  We will be referring to the following files:
  
  * Vehicle.swift
- * _1_Classes_SwiftTests.swift
+ * VehicleInfoManager.swift
+ * ClassesInSwiftTests.swift
  
  Here is the official documentation for classes in Swift:
  
@@ -68,14 +69,14 @@ class AClass {
  Visualizing how things are supposed to look would be difficult, as would understanding the
  full consequences of any change you make. The second approach, on the other hand, conveys the
  same information in a way that is both technically correct and understandable for a human. It's
- more likely to be executed correctly and easier to edit.
+ more likely to be executed correctly and it's easier to edit.
  
  Code is the same way. While we could write every program as a long series of functions and conditionals,
  only using the types that come with the language, it would be hard for a human to read. Code that's
  hard to read is also hard to write and edit. Therefore, we could use a blueprint. We could use a
  sensible way of laying out information that is understood by both the compiler and us humans.
  
- Enter classes. Functioning like blueprints for code, classes let us wrap of constants, variables,
+ Enter classes. Functioning like blueprints for code, classes let us wrap up constants, variables,
  functions and comments into a discrete package, named something that tells us what the class does.
  If we need to record information about what Reebok sells, we might make a class called 'Shoe' that
  uses code to describe the concept of a shoe. If we want to bundle the functions that we use to
