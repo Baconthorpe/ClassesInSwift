@@ -13,6 +13,9 @@
 		B30114451CF8927600233B01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B30114441CF8927600233B01 /* Assets.xcassets */; };
 		B30114481CF8927600233B01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B30114461CF8927600233B01 /* LaunchScreen.storyboard */; };
 		B30114531CF8927600233B01 /* ClassesInSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30114521CF8927600233B01 /* ClassesInSwiftTests.swift */; };
+		B30114601CF8929600233B01 /* Overview.swift in Sources */ = {isa = PBXBuildFile; fileRef = B301145D1CF8929600233B01 /* Overview.swift */; };
+		B30114611CF8929600233B01 /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B301145E1CF8929600233B01 /* Vehicle.swift */; };
+		B30114621CF8929600233B01 /* VehicleInfoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B301145F1CF8929600233B01 /* VehicleInfoManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		B301144E1CF8927600233B01 /* ClassesInSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClassesInSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B30114521CF8927600233B01 /* ClassesInSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassesInSwiftTests.swift; sourceTree = "<group>"; };
 		B30114541CF8927600233B01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B301145D1CF8929600233B01 /* Overview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Overview.swift; sourceTree = "<group>"; };
+		B301145E1CF8929600233B01 /* Vehicle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vehicle.swift; sourceTree = "<group>"; };
+		B301145F1CF8929600233B01 /* VehicleInfoManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VehicleInfoManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +83,9 @@
 		B301143C1CF8927600233B01 /* ClassesInSwift */ = {
 			isa = PBXGroup;
 			children = (
+				B301145D1CF8929600233B01 /* Overview.swift */,
+				B301145E1CF8929600233B01 /* Vehicle.swift */,
+				B301145F1CF8929600233B01 /* VehicleInfoManager.swift */,
 				B301143D1CF8927600233B01 /* AppDelegate.swift */,
 				B301143F1CF8927600233B01 /* ViewController.swift */,
 				B30114411CF8927600233B01 /* Main.storyboard */,
@@ -197,7 +206,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B30114611CF8929600233B01 /* Vehicle.swift in Sources */,
+				B30114601CF8929600233B01 /* Overview.swift in Sources */,
 				B30114401CF8927600233B01 /* ViewController.swift in Sources */,
+				B30114621CF8929600233B01 /* VehicleInfoManager.swift in Sources */,
 				B301143E1CF8927600233B01 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
